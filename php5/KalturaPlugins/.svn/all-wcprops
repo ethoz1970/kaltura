@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins
+END
+KalturaAttachmentClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaAttachmentClientPlugin.php
+END
+KalturaAdCuePointClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaAdCuePointClientPlugin.php
+END
+KalturaCaptionClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaCaptionClientPlugin.php
+END
+KalturaDropFolderClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaDropFolderClientPlugin.php
+END
+KalturaDropFolderXmlBulkUploadClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaDropFolderXmlBulkUploadClientPlugin.php
+END
+KalturaAuditClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaAuditClientPlugin.php
+END
+KalturaContentDistributionClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaContentDistributionClientPlugin.php
+END
+KalturaAnnotationClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaAnnotationClientPlugin.php
+END
+KalturaFileSyncClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaFileSyncClientPlugin.php
+END
+KalturaVirusScanClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaVirusScanClientPlugin.php
+END
+KalturaShortLinkClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaShortLinkClientPlugin.php
+END
+KalturaDocumentClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaDocumentClientPlugin.php
+END
+KalturaMetadataClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaMetadataClientPlugin.php
+END
+KalturaCodeCuePointClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaCodeCuePointClientPlugin.php
+END
+KalturaCaptionSearchClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaCaptionSearchClientPlugin.php
+END
+KalturaCuePointClientPlugin.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaPlugins/KalturaCuePointClientPlugin.php
+END

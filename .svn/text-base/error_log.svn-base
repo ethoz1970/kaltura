@@ -1,0 +1,517 @@
+[08-Nov-2013 11:31:21] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Invalid partner id' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:762
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(4): KalturaConfiguration->__construct(NULL)
+#1 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 762
+[08-Nov-2013 11:32:41] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Missing parameter "secret"' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2355): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start(NULL, NULL, NULL, NULL, NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 11:35:35] PHP Parse error:  syntax error, unexpected T_STRING in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 8
+[08-Nov-2013 11:36:06] PHP Parse error:  syntax error, unexpected T_STRING in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 8
+[08-Nov-2013 11:36:08] PHP Parse error:  syntax error, unexpected T_STRING in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 8
+[08-Nov-2013 11:36:09] PHP Parse error:  syntax error, unexpected T_STRING in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 8
+[08-Nov-2013 11:37:48] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Invalid partner id' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:762
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(5): KalturaConfiguration->__construct(NULL)
+#1 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 762
+[08-Nov-2013 11:38:28] PHP Catchable fatal error:  Argument 1 passed to KalturaClient::__construct() must be an instance of KalturaConfiguration, null given, called in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 6 and defined in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php on line 3670
+[08-Nov-2013 11:39:57] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Invalid partner id' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:762
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(5): KalturaConfiguration->__construct(NULL)
+#1 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 762
+[08-Nov-2013 11:40:00] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Invalid partner id' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:762
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(5): KalturaConfiguration->__construct(NULL)
+#1 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 762
+[08-Nov-2013 11:40:01] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Invalid partner id' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:762
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(5): KalturaConfiguration->__construct(NULL)
+#1 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 762
+[08-Nov-2013 11:40:29] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 22
+[08-Nov-2013 11:41:19] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 19
+[08-Nov-2013 11:41:21] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 19
+[08-Nov-2013 11:41:23] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 19
+[08-Nov-2013 11:41:48] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 22
+[08-Nov-2013 11:42:56] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 11:43:18] PHP Fatal error:  Call to a member function start() on a non-object in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 17
+[08-Nov-2013 11:43:34] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 11:43:36] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 11:43:37] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 11:43:38] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 11:43:40] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 11:43:41] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 11:44:15] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 11:44:16] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 11:44:17] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 11:44:18] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 11:45:42] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 11:45:45] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 11:45:46] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 11:49:00] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 26
+[08-Nov-2013 11:49:16] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 26
+[08-Nov-2013 11:49:17] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 26
+[08-Nov-2013 11:49:37] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 26
+[08-Nov-2013 11:51:23] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 33
+[08-Nov-2013 11:51:25] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 33
+[08-Nov-2013 11:52:01] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 33
+[08-Nov-2013 11:52:03] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 33
+[08-Nov-2013 11:52:04] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 33
+[08-Nov-2013 11:52:16] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'The access to service [media->list] is forbidden' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1419): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(32): KalturaMediaService->listAction()
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 11:53:03] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'The access to service [media->list] is forbidden' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1419): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(32): KalturaMediaService->listAction()
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 11:53:06] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'The access to service [media->list] is forbidden' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1419): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(32): KalturaMediaService->listAction()
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 11:53:43] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'The access to service [media->list] is forbidden' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1419): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(32): KalturaMediaService->listAction()
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 11:53:46] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'The access to service [media->list] is forbidden' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1419): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(32): KalturaMediaService->listAction()
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 11:53:48] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'The access to service [media->list] is forbidden' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1419): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(32): KalturaMediaService->listAction()
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 11:56:07] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Error while starting session for partner [1535721]' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2355): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(19): KalturaSessionService->start('28f781e65c5a9c1...', 'blackskymedia@g...', 0, 1535721, 600, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 11:56:32] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Error while starting session for partner [1535721]' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2355): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(19): KalturaSessionService->start('28f781e65c5a9c1...', NULL, 0, 1535721, 600, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 11:56:56] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'The access to service [media->list] is forbidden' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1419): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(32): KalturaMediaService->listAction()
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 11:58:54] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'The access to service [media->list] is forbidden' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1419): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(32): KalturaMediaService->listAction()
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 11:59:21] PHP Fatal error:  Call to a member function listAction() on a non-object in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 31
+[08-Nov-2013 11:59:43] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 26
+[08-Nov-2013 12:00:44] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 26
+[08-Nov-2013 12:00:46] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 26
+[08-Nov-2013 12:01:27] PHP Fatal error:  Class 'KalturaCategoryEntryAdvancedFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 27
+[08-Nov-2013 12:03:48] PHP Fatal error:  Class 'KalturaCategoryEntryAdvancedFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 27
+[08-Nov-2013 12:03:49] PHP Fatal error:  Class 'KalturaCategoryEntryAdvancedFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 27
+[08-Nov-2013 12:03:50] PHP Fatal error:  Class 'KalturaCategoryEntryAdvancedFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 27
+[08-Nov-2013 12:06:15] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'The access to service [media->list] is forbidden' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1419): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(32): KalturaMediaService->listAction()
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 12:06:37] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'The access to service [media->list] is forbidden' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1419): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(32): KalturaMediaService->listAction()
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 12:07:57] PHP Fatal error:  Class 'KalturaCategoryEntryAdvancedFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 27
+[08-Nov-2013 12:12:19] PHP Fatal error:  Call to a member function listAction() on a non-object in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 37
+[08-Nov-2013 12:12:38] PHP Fatal error:  Call to a member function listAction() on a non-object in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 37
+[08-Nov-2013 12:12:42] PHP Fatal error:  Call to a member function listAction() on a non-object in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 37
+[08-Nov-2013 12:12:44] PHP Fatal error:  Call to a member function listAction() on a non-object in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 37
+[08-Nov-2013 12:13:40] PHP Fatal error:  Call to a member function listAction() on a non-object in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 39
+[08-Nov-2013 12:13:42] PHP Fatal error:  Call to a member function listAction() on a non-object in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 39
+[08-Nov-2013 12:16:38] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Invalid partner id' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:762
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(9): KalturaConfiguration->__construct(NULL)
+#1 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 762
+[08-Nov-2013 12:19:46] PHP Warning:  require_once(lib/KalturaClient.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 20
+[08-Nov-2013 12:19:46] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'lib/KalturaClient.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 20
+[08-Nov-2013 12:19:55] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 12:20:40] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 22
+[08-Nov-2013 12:20:42] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 22
+[08-Nov-2013 12:21:14] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 22
+[08-Nov-2013 12:21:15] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 22
+[08-Nov-2013 12:22:40] PHP Warning:  require_once(../../../../kaltura/kaltura_client/KalturaClient.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:22:40] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../../../kaltura/kaltura_client/KalturaClient.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:23:30] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 22
+[08-Nov-2013 12:23:52] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 22
+[08-Nov-2013 12:23:54] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 22
+[08-Nov-2013 12:23:55] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 22
+[08-Nov-2013 12:23:56] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 22
+[08-Nov-2013 12:26:00] PHP Warning:  require_once(../../../../../kaltura/kaltura_client/KalturaClient.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:26:00] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../../../../kaltura/kaltura_client/KalturaClient.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:26:09] PHP Warning:  require_once(../../../../../../kaltura/kaltura_client/KalturaClient.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:26:09] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../../../../../kaltura/kaltura_client/KalturaClient.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:26:16] PHP Warning:  require_once(../../../../kaltura/kaltura_client/KalturaClient.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:26:16] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../../../kaltura/kaltura_client/KalturaClient.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:27:37] PHP Warning:  require_once(../../../../../kaltura/librarykaltura_client/Client.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:27:37] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../../../../kaltura/librarykaltura_client/Client.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:27:56] PHP Warning:  require_once(../../../../../kaltura/library/Kaltura/Client.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:27:56] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../../../../kaltura/library/Kaltura/Client.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:28:07] PHP Warning:  require_once(../../../../kaltura/library/Kaltura/Client.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:28:07] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../../../kaltura/library/Kaltura/Client.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:28:13] PHP Warning:  require_once(../../../../../../kaltura/library/Kaltura/Client.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:28:13] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../../../../../kaltura/library/Kaltura/Client.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 3
+[08-Nov-2013 12:28:25] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Recv failure: Connection reset by peer' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start('5f4228dd1a7ad7f...', NULL, NULL, 1535721, NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:28:43] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Recv failure: Connection reset by peer' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start('5f4228dd1a7ad7f...', NULL, NULL, 1535721, NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:29:35] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Operation timed out after 10003 milliseconds with 0 bytes received' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start('5f4228dd1a7ad7f...', NULL, NULL, 1535721, NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:30:03] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Operation timed out after 10011 milliseconds with 0 bytes received' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start('5f4228dd1a7ad7f...', NULL, NULL, 1535721, 600, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:30:23] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Recv failure: Connection reset by peer' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(20): KalturaSessionService->start('5f4228dd1a7ad7f...', NULL, NULL, 1535721, NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:31:15] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Recv failure: Connection reset by peer' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start('5f4228dd1a7ad7f...', NULL, NULL, 1535721, NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:31:31] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 12:31:46] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 12:33:27] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Recv failure: Connection reset by peer' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start('5f4228dd1a7ad7f...', NULL, NULL, 1535721, NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:39:55] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 12:44:07] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 12:44:13] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Recv failure: Connection reset by peer' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start('5f4228dd1a7ad7f...', NULL, NULL, 1535721, NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:44:25] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Recv failure: Connection reset by peer' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start('5f4228dd1a7ad7f...', NULL, NULL, 1535721, NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:44:39] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Recv failure: Connection reset by peer' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start('5f4228dd1a7ad7f...', NULL, NULL, 1535721, NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:45:16] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 12:45:17] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 24
+[08-Nov-2013 12:45:33] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Recv failure: Connection reset by peer' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start('5f4228dd1a7ad7f...', NULL, NULL, 1535721, NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:45:42] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Operation timed out after 10012 milliseconds with 0 bytes received' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start('5f4228dd1a7ad7f...', NULL, NULL, 1535721, NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:46:43] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Recv failure: Connection reset by peer' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start('5f4228dd1a7ad7f...', 'blackskymedia@g...', NULL, 1535721, 600, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:47:01] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Recv failure: Connection reset by peer' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start('5f4228dd1a7ad7f...', 'blackskymedia@g...', NULL, 1535721, 600, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:47:17] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 12:47:25] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Recv failure: Connection reset by peer' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start('5f4228dd1a7ad7f...', 'blackskymedia@g...', NULL, 1535721, 600, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:47:36] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'Recv failure: Connection reset by peer' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(2354): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(14): KalturaSessionService->start('5f4228dd1a7ad7f...', 'blackskymedia@g...', NULL, 1535721, 600, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[08-Nov-2013 12:48:05] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 12:48:14] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 12:48:18] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 12:48:20] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 12:48:21] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 12:48:33] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 12:48:37] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 12:48:38] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 12:49:00] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 12:49:02] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 12:49:03] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 12:54:26] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 12:54:32] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 12:54:34] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 12:54:36] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 13:03:37] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 21
+[08-Nov-2013 13:28:42] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_f7hdt5ii" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_f7hdt5ii')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 13:28:45] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_f7hdt5ii" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_f7hdt5ii')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 13:30:14] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_vqnb1rva" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_vqnb1rva')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 13:30:36] PHP Parse error:  syntax error, unexpected T_STRING in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 22
+[08-Nov-2013 13:31:44] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_vqnb1rva" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_vqnb1rva')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 14:27:27] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_vqnb1rva" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_vqnb1rva')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[08-Nov-2013 15:28:07] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_vqnb1rva" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_vqnb1rva')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[09-Nov-2013 13:56:56] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_vqnb1rva" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_vqnb1rva')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 08:54:41] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_vqnb1rva" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_vqnb1rva')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 08:55:45] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_d460jbhi" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_d460jbhi')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 08:56:00] PHP Parse error:  syntax error, unexpected T_STRING in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 22
+[12-Nov-2013 08:56:11] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_d460jbhi" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_d460jbhi')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 08:56:36] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_d460jbhi" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_d460jbhi')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 08:56:38] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_d460jbhi" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_d460jbhi')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 08:56:40] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_d460jbhi" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_d460jbhi')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 08:56:52] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_d460jbhi" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_d460jbhi')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 08:56:54] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_d460jbhi" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_d460jbhi')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 08:56:55] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_d460jbhi" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_d460jbhi')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 08:58:00] PHP Fatal error:  Class 'KalturaCategoryEntryFilter' not found in /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php on line 25
+[12-Nov-2013 08:58:30] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_d460jbhi" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_d460jbhi')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 08:58:35] PHP Fatal error:  Uncaught exception 'KalturaClientException' with message 'connect() timed out!' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:199
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1375): KalturaClientBase->doQueue()
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_d460jbhi')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 199
+[12-Nov-2013 08:59:07] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_d460jbhi" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_d460jbhi')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 08:59:09] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_d460jbhi" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_d460jbhi')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 08:59:10] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_d460jbhi" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_d460jbhi')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 08:59:11] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_d460jbhi" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(23): KalturaMediaService->get('0_d460jbhi')
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 09:03:39] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'The access to service [media->list] is forbidden' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1419): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(33): KalturaMediaService->listAction(NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 09:05:11] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'The access to service [media->list] is forbidden' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1419): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(33): KalturaMediaService->listAction(NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 09:05:13] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'The access to service [media->list] is forbidden' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1419): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(33): KalturaMediaService->listAction(NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 09:05:17] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'The access to service [media->list] is forbidden' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1419): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(33): KalturaMediaService->listAction(NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 09:05:17] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'The access to service [media->list] is forbidden' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1419): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(33): KalturaMediaService->listAction(NULL, NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 09:05:30] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_f7hdt5ii" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(37): KalturaMediaService->get('0_f7hdt5ii', NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 09:06:00] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_f7hdt5ii" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(37): KalturaMediaService->get('0_f7hdt5ii', NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 09:06:02] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_f7hdt5ii" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(37): KalturaMediaService->get('0_f7hdt5ii', NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 09:06:05] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_f7hdt5ii" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(37): KalturaMediaService->get('0_f7hdt5ii', NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 09:06:07] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_f7hdt5ii" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(37): KalturaMediaService->get('0_f7hdt5ii', NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 09:06:45] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_f7hdt5ii" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(37): KalturaMediaService->get('0_f7hdt5ii', NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 09:06:47] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_f7hdt5ii" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(37): KalturaMediaService->get('0_f7hdt5ii', NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434
+[12-Nov-2013 09:06:49] PHP Fatal error:  Uncaught exception 'KalturaException' with message 'Entry id "0_f7hdt5ii" not found' in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php:434
+Stack trace:
+#0 /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClient.php(1376): KalturaClientBase->throwExceptionIfError(Array)
+#1 /home1/ethoz/public_html/bb3/sites/all/modules/mario/kalturatest.php(37): KalturaMediaService->get('0_f7hdt5ii', NULL)
+#2 {main}
+  thrown in /home1/ethoz/public_html/bb3/sites/all/modules/kaltura/kaltura_client/KalturaClientBase.php on line 434

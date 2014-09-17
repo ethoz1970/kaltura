@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5
+END
+KalturaEnums.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaEnums.php
+END
+agpl.txt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/agpl.txt
+END
+KalturaClientBase.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaClientBase.php
+END
+KalturaClient.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaClient.php
+END
+KalturaTypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/php5/KalturaTypes.php
+END

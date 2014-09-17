@@ -1,0 +1,8 @@
+;$Id$
+name = bb_kaltura
+description = Kaltura notification module for syncing media and creating new nodes upon publishing in KMC
+package = ACME INC KALTURA INTEGRATION
+core = 7.x
+files[] = bb_kaltura.module
+;dependencies[] = autoload
+;php = 5.2

@@ -1,0 +1,129 @@
+<?php
+// $Id$
+/**
+* @file
+* A module for syncing kaltura video content in the KMC with the acme_inc drupal site
+*
+* This fuction is triggered in the kaltura.module when a notification is recieved of the type UDATE
+* The function then checks if the entry is of the category acme_inc
+* If the entry is of the category acme_inc the function then checks if the node already exist 
+* If the node already exist the node is udated
+* If node does not exist the node is created
+* If the node is not of the category acme_inc the fuction checks if the node exisit
+* If the node exisit it is unpublished 
+*/
+
+
+
+function bb_kaltura_update_a_node($obj) {
+
+	watchdog('knotification', 'bbkaltura called'); 
+	//check the category of the video that was updated and make sure it is acme_inc
+	require_once('php5/KalturaClient.php');
+	$adminSecret = 'dummy'; 
+	//PASSWORDS HAVE BEEN REMOVED FOR PORTFOLIO PURPOSES
+	$partnerId = 0000001; 
+	//Your partner Id from KMC>Settings>Integration Settings
+	$userId = 'johndoe@gmail.com';
+	$config = new KalturaConfiguration($partnerId);
+	$config->serviceUrl = 'http://www.kaltura.com';
+	$client = new KalturaClient($config);
+	$ks = $client->generateSession($adminSecret, $userId, KalturaSessionType::ADMIN, $partnerId);
+	$client->setKs($ks);
+	$filter = new KalturaMediaEntryFilter();
+	$filter->categoriesIdsMatchAnd = 14819081;   						
+	//  check for specific category
+	$filter->freeText = $obj['entry_id'];   
+	// check for specific entryID
+	$results = $client->media->listAction($filter);
+
+	if ($results->objects[0]->rootEntryId !== NULL) {					
+		// check if the video is categorized as acme_inc
+		$uid = $obj['entry_id'];
+		if ($results->objects[0]->description !== NULL)
+		$parse_decription = $results->objects[0]->description;
+		else
+		$parse_decription = '';
+		$result = db_query('SELECT * FROM field_data_field_kid WHERE field_kid_value = :uid', array(':uid' => $uid));
+		// Result is returned as a iterable object that returns a stdClass object on each iteration
+		foreach ($result as $record) {
+			if ($record->entity_id !== NULL) $use_node_id = $record->entity_id;  
+			// set node id for video item to be updated
+			else 
+			$use_node_id = NULL;												
+			// set node id to NULL and create new node
+		}
+	
+		$body_text = $parse_decription;
+		$node->type = 'video_item';
+
+		if ($use_node_id !== NULL ) {
+			$file_name =$obj['entry_id'];
+			$node = node_load($use_node_id);
+			$node->nid = $use_node_id;
+			$node->title = $obj['name'];
+			$node->field_kid[$node->language][0]['value'] = $obj['entry_id'];
+			$node->status = 1;												
+			// make the node published
+			$node->field_name[$node->language][0]['value'] = $obj['title'];
+			$node->field_kthumb[$node->language][0]['value'] = $obj['thumbnail_url'].'/width/500/height/281';
+			$node->language = LANGUAGE_NONE;
+			$node->body[$node->language][0]['value']   = $body_text;
+			$node->body[$node->language][0]['summary'] = text_summary($body_text);
+			$node->body[$node->language][0]['format']  = 'filtered_html';
+
+			$tags = $obj['tags'];
+			$testit = count($node->field_video_tags);
+		
+			if ($testit < 1) {
+				$tag_terms = migrate_billboard_find_video_tags($tags);
+				if (!empty($tag_terms)) {
+					foreach ($tag_terms as $tag) {
+						$node->field_video_tags[LANGUAGE_NONE][] = array('tid' => $tag);
+					}
+				}
+			}
+
+			$path = 'content/' . $obj->name;
+			$node->path = array('alias' => $path);
+			node_save($node);
+			}
+
+			else {
+				$body_text = $obj->description;
+				$node = new stdClass();
+				$node->type = 'video_item';
+				$node->language = LANGUAGE_NONE;
+				node_object_prepare($node);
+				$node->title = $obj['name'];
+				$node->field_kid[$node->language][0]['value'] = $obj['entry_id'];
+				$node->status = 1;   
+				// make node status published
+				$node->field_kthumb[$node->language][0]['value'] = $obj['thumbnail_url'].'/width/500/height/281';
+				$node->body[$node->language][0]['value']   = $body_text;
+				$node->body[$node->language][0]['summary'] = text_summary($body_text);
+				$node->body[$node->language][0]['format']  = 'filtered_html';
+				$path = 'content/' . $obj->name;
+				$node->path = array('alias' => $path);
+				node_save($node);
+			}
+
+
+		}
+
+		else {  
+			// if it is not acme_inc check if node exist meaning media has been unpublished
+			$uid = $obj['entry_id'];
+			$result = db_query('SELECT * FROM field_data_field_kid WHERE field_kid_value = :uid', array(':uid' => $uid));
+			// Result is returned as a iterable object that returns a stdClass object on each iteration
+			foreach ($result as $record) {
+				if ($record->entity_id !== NULL) {
+					$use_node_id = $record->entity_id;  
+					$node = node_load($use_node_id);
+					$node->nid = $use_node_id;
+					$node->status = 0;
+					node_save($node); 
+			}
+		}
+	}
+}

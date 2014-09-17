@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/billboard/!svn/ver/4814/www/branches/dev/sites/all/modules/bb_kaltura
+END
+bb_kaltura.info
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/bb_kaltura.info
+END
+bb_kaltura.module
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/billboard/!svn/ver/4814/www/branches/dev/sites/all/modules/bb_kaltura/bb_kaltura.module
+END
+error_log
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/billboard/!svn/ver/4810/www/branches/dev/sites/all/modules/bb_kaltura/error_log
+END
